@@ -1,0 +1,16 @@
+
+body {font-family: Arial, sans-serif; background: #0a0a0a; color: #fff; margin:0; line-height:1.6;}
+header {background: linear-gradient(90deg, #ff6600, #000); padding:20px; text-align:center;}
+h1, h2 {color:#ff6600;}
+.buy-options {display:flex; gap:10px; margin:20px 0; flex-wrap:wrap;}
+.buy-btn {background:#ff6600; padding:10px 20px; border-radius:6px; color:#fff; text-decoration:none; font-weight:bold;}
+.buy-btn:hover {background:#e65c00;}
+.price-table {width:100%; border-collapse:collapse; background:#111; margin-top:15px;}
+.price-table th, .price-table td {border:1px solid #222; padding:10px; text-align:center;}
+.price-table th {background:#ff6600; color:#fff;}
+.carousel-track {display:flex; overflow-x:auto; gap:10px;}
+.carousel-track iframe {width:360px; height:200px; border-radius:10px;}
+.review-carousel {display:flex; overflow-x:auto; gap:10px; margin-top:15px;}
+.review {background:#111; padding:15px; border-radius:8px; min-width:200px;}
+.ad-placeholder {width:728px; height:90px; background:#222; margin:auto; display:flex; align-items:center; justify-content:center; color:#666; border-radius:6px;}
+footer {text-align:center; padding:20px; color:#aaa;}
